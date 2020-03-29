@@ -24,7 +24,7 @@ print "Logging in...\n";
 $mech->get($loginUrl);
 $mech->submit_form(
     form_number => 1,
-    fields      => { 'login.Email' => 'claves.doamaral@gmail.com', 'login.Password' => 'Maria1977' },
+    fields      => { 'login.Email' => 'xxx@xxx', 'login.Password' => 'xxx' },
 );
 die "Error: Couldn't login $!\n" unless ($mech->success);
 
